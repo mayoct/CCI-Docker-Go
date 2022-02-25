@@ -1,0 +1,7 @@
+jobs:
+  build:
+    docker:
+      - image: cimg/go:1.17.7
+    steps:
+      - checkout
+      - run: go version
